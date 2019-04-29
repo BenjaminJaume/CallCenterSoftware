@@ -1,0 +1,65 @@
+  GestAccueil.accueil.resources - Embedded, ContainedInManifestFile, 
+  GestAccueil.courrier.resources - Embedded, ContainedInManifestFile, 
+  GestAccueil.Form1.resources - Embedded, ContainedInManifestFile, 
+  GestAccueil.formulaire.resources - Embedded, ContainedInManifestFile, 
+  GestAccueil.visiteur.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly GestAccueil, Version=1.0.*, Culture=Langue indifférente (Pays indifférent): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class GestAccueil.acceuil: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GestAccueil.accueil: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.TextBox NomOp : Public
+    System.Windows.Forms.TextBox Mdp : Public
+    System.Windows.Forms.Label labelOk : Public
+Class GestAccueil.courrier: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.TextBox Date : Public
+    System.Windows.Forms.Button ReinitCourrier : Public
+    System.Windows.Forms.Button AnnulerCourrier : Public
+    System.Windows.Forms.Button ValiderCourrier : Public
+    System.Windows.Forms.TextBox Heure : Public
+    System.Windows.Forms.TextBox Dest1 : Public
+    System.Windows.Forms.TextBox Exp : Public
+    System.Windows.Forms.TextBox Dest3 : Public
+    System.Windows.Forms.TextBox Dest2 : Public
+    System.Windows.Forms.TextBox Message : Public
+Class GestAccueil.formulaire: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GestAccueil.visiteur: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.TextBox TextBoxNature : Public
+    System.Windows.Forms.TextBox SocieteCorrespondant : Public
+    System.Windows.Forms.TextBox PrenomCorrespondant : Public
+    System.Windows.Forms.TextBox NomCorrespondant : Public
+    System.Windows.Forms.Button AnnulerVisiteur : Public
+    System.Windows.Forms.Button ValiderVisiteur : Public
+    System.Windows.Forms.TextBox TextBoxSortie : Public
+    System.Windows.Forms.TextBox TextBoxArriver : Public
+    System.Windows.Forms.Button ReinitVisiteur : Public
+    System.Windows.Forms.TextBox TextBoxDate : Public
+    System.Windows.Forms.Label ok : Public
+Class GestAccueil.Form1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
